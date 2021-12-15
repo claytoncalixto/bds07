@@ -1,11 +1,15 @@
 .main-nav{
-    padding-left: 88px;
+    padding-left: 20px;
     padding-right: 65px;
     min-height: 70px;
 }
 
 .nav-logo{
 background-color: #F78B00;
+}
+
+.navbar-toggler-icon {
+    color: #00285F;
 }
 
 .nav-logo-text, .nav-logo-text:hover{
@@ -26,7 +30,12 @@ background-color: #F78B00;
     color:#00285F ;
 }
 
-.main-menu a.active {
-    color:#00285F ;
+.main-menu a.active {   
     font-weight: bold;
+}
+
+@media(min-width: 768px){
+    .main-menu {
+        justify-content: space-evenly;
+    }
 }
