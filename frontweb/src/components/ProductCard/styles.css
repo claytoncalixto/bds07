@@ -1,0 +1,61 @@
+.car-bottom-container {
+  position: relative;
+  top: 120px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 347px;
+  background-color: #ededed;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.car-bottom-container img {
+  width: 220px;
+  height: 165px;
+  top: 210px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.car-bottom-container h1 {
+  width: 263.86px;
+  height: 21px;
+  left: 31px;
+  top: 383px;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #000000;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.car-bottom-container p {
+  width: 264px;
+  height: 32px;
+  left: 32px;
+  top: 418px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: #585858;
+  margin-top: 14px;
+}
+
+.car-bottom-container button {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}

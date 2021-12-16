@@ -53,7 +53,7 @@
   color: #fff;
   align-content: center;
   background-color: #ededed;
-  border-radius: 10px;  
+  border-radius: 10px;
 }
 
 .home-button-icon {
@@ -184,9 +184,43 @@
   }
 
   .home-button-container {
-    margin-top: 5px;    
+    margin-top: 5px;
     margin-bottom: 20px;
     height: 70px;
     width: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-card {
+    width: 979px;
+    height: 365px;
+    left: 150px;
+    top: 100px;
+    margin-left: 150px;
+    margin-right: 151px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .home-image-container svg {
+    padding: 183px, 299px, 338px, 718px;
+    width: 333px;
+    height: 199px;
+    left: 718px;
+    top: 183px;
+    align-items: baseline;
+    align-content: center;
+  }
+
+  .home-button-container {
+    margin-left: 150px;
+    margin-bottom: 20px;
+    width: 979px;
+    height: 123px;
+    left: 150px;
+    top: 495px;
   }
 }

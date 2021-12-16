@@ -3,7 +3,7 @@ import ButtonBuy from 'components/ButtonBuy';
 import './styles.css';
 
 
-const CarCard = () => {
+const ProductCard = () => {
   
   return (    
     <>      
@@ -20,4 +20,4 @@ const CarCard = () => {
   );
 };
 
-export default CarCard;
+export default ProductCard;

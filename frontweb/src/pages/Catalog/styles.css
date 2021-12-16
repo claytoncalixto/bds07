@@ -1,0 +1,130 @@
+.car-top-container {
+  position: absolute;
+  top: 100px;
+  width: 300px;
+  height: 86px;
+  background-color: #ededed;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 20px, 10px, 30px, 10px;
+}
+
+.form-control  {
+  width: 199px;
+  height: 40px;
+  left: 20px;
+  top: 112px;
+  background: #ffffff;
+  border-radius: 5px 0px 0px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.btn-outline-success {
+  width: 77px;
+  height: 40px;
+  left: 219px;
+  top: 111px;
+  background: #00285f;
+  border-radius: 0px 5px 5px 0px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+@media (min-width: 576px) {
+  .car-top-container {
+    padding: 20px, 10px, 20px, 10px;
+    left: 5%;
+    right: 10%;
+    width: 100%;
+    size-adjust: var(100%);
+    flex-grow: 1;
+  }
+
+  .form-control {
+    padding: 20px, 10px, 20px, 10px;    
+    flex-grow: 0.75;
+  }
+
+  .btn-outline-success {
+    padding: 20px, 10px, 20px, 10px;    
+    flex-grow: 0.15;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+  .car-top-container {
+    padding: 20px, 10px, 20px, 10px;
+    left: 5%;
+    right: 10%;
+    width: 100%;
+    size-adjust: var(100%);
+    flex-grow: 1;
+  }
+
+  .form-control {
+    padding: 20px, 10px, 20px, 10px;    
+    flex-grow: 0.75;
+  }
+
+  .btn-outline-success {
+    padding: 20px, 10px, 20px, 10px;    
+    flex-grow: 0.15;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+  .car-top-container {
+    padding: 20px, 10px, 20px, 10px;
+    left: 2.25%;
+    right: 15%;
+    width: 100%;
+    size-adjust: var(100%);
+    flex-grow: 1;
+  }
+
+  .form-control {
+    padding: 20px, 10px, 20px, 10px;    
+    flex-grow: 0.5;
+  }
+
+  .btn-outline-success {
+    padding: 20px, 10px, 20px, 10px;    
+    flex-grow: 0.15;
+  }
+
+}
+
+@media (min-width: 1200px){
+  .car-top-container {
+    padding: 20px, 10px, 20px, 10px;
+    left: 5%;
+    right: 55%;
+    width: 88.5%;
+    size-adjust: var(90%);
+    flex-grow: 1;
+  }
+
+  .form-control {
+    padding: 20px, 10px, 20px, 10px;    
+    flex-grow: 0.5;
+  }
+
+  .btn-outline-success {
+    padding: 20px, 10px, 20px, 10px;    
+    flex-grow: 0.15;
+  }
+
+}
